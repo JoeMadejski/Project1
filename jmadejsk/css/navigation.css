@@ -1,0 +1,30 @@
+
+.menu {
+	top: 0;
+	right: 0;
+	background-color: #F7F9F9;}
+
+
+.menu ul {display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	list-style-type: none;
+	width: 1000px;}
+
+.menu a{color: black;
+	display: block;
+	
+	border: 3px double black;
+	padding: 8px}
+
+.menu a:hover {background-color: #979A9A;
+	opacity: 80%;}
+
+.is-current {text-decoration: underline;
+	background-color: #979A9A;}
+
+header{margin-top: 30px;}
+
+
+
