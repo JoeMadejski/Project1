@@ -1,0 +1,312 @@
+html,body{
+
+    background-color: rgb(245, 239, 225);
+    margin: 0 auto;
+    width:90%;
+
+    }
+
+    
+    section{
+     background-color: rgb(245, 239, 225);
+      /*width: 1000px;*/
+      border: 20px solid rgb(227, 223, 213);
+      -moz-border-radius: 15px;
+     -webkit-border-radius: 15px;
+      padding: 25px;
+      margin: 25px;
+      text-align: center;
+
+      float:center;
+    }
+    
+    header{
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        font-size: larger;
+        background-color: rgb(245, 239, 225);
+
+      vertical-align: middle;
+    }
+    
+    h2{
+        font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+        background-color: rgb(245, 239, 225);
+       /* width: 300px;*/
+        border: 10px solid rgb(227, 223, 213);
+        border-radius: 2em / 5em;
+        padding: 25px;
+        margin: 25px;
+        text-align: center;
+        color:rgb(26, 25, 23);
+    }
+    
+    h3{
+        background-color:  rgb(123, 184, 189);
+        /*width: 200px;*/
+        border: 10px solid rgb(227, 223, 213);
+        border-radius: 2em / 5em;
+        padding: 25px;
+        margin: 25px;
+        text-align: center;
+        color:rgb(26, 25, 23);
+    }
+    
+    p{
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        color:rgb(26, 25, 23);
+    }
+
+    .introduction{
+   background-color: rgb(245, 239, 225);
+     /*width: 1000px;*/
+      border: 10px solid rgb(227, 223, 213);
+      -moz-border-radius: 15px;
+      -webkit-border-radius: 15px;
+      padding: 25px;
+      margin: 25px;
+      text-align: center;
+    
+      grid-row: 1;
+      grid-column: 1/3;
+
+    }
+    .article-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 5fr;
+        grid-gap: 10px;
+        background-color:rgb(245, 239, 225);
+        padding: 10px;  
+        margin:0 auto;
+
+        width: 100%;
+        }
+    
+    .education {
+        grid-row:2;
+        grid-column:1/2;
+    }
+    
+    .Volunteer_Internship{
+        grid-row: 3;
+        grid-column: 1/2;
+    }
+    
+    .portfolio{
+        grid-row:4;
+        grid-column: 1/3;
+    }
+
+    .portfolio_container{
+    display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows:repeat(3,1fr);
+      grid-auto-rows: 560px;
+      grid-auto-columns: 410px;
+      grid-gap: 10px;
+        padding: 10px;  
+        margin:0 auto;
+    }
+
+    .Yilin_art1{
+/*grid-column:1/2;
+grid-row:1/2;*/
+
+grid-column-start:1;
+grid-column-end:2;
+
+grid-row-start:1 ;
+grid-row-end:2 ;
+    }
+    .Yilin_art2{
+     /* grid-column:2/3;
+grid-row: 1/2;*/
+
+grid-column-start:2;
+grid-column-end:3;
+
+grid-row-start:1 ;
+grid-row-end:2 ;
+    }
+    .Yilin_art3{
+      /*grid-column:1/2;
+grid-row: 2/3;*/
+
+grid-column-start:1;
+grid-column-end:2;
+
+grid-row-start:2 ;
+grid-row-end:3 ;
+    }
+    .Yilin_art4{
+      /*grid-column:2/3;
+grid-row: 2/3;*/
+
+grid-column-start:2;
+grid-column-end:3;
+
+grid-row-start:2 ;
+grid-row-end:3 ;
+    }
+    
+    .aboutme{
+      background-color: rgb(245, 239, 225);
+     /*width: 1000px;*/
+      border: 10px solid rgb(227, 223, 213);
+      -moz-border-radius: 15px;
+      -webkit-border-radius: 15px;
+      padding: 25px;
+      margin: 25px;
+      text-align: center;
+    
+       grid-row: 1;
+      grid-column: 1/3;
+    }
+    
+    
+    footer{
+        grid-row:5;
+        grid-column: 1/3;
+        font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+        background-color:rgb(245, 239, 225);
+    
+      border: 10px solid rgb(227, 223, 213);
+      padding: 25px;
+      margin: 25px;
+    }
+    
+    table{
+        border-collapse: collapse;
+        border: 5px solid rgb(245, 239, 225);
+    }
+    
+    th, td {
+        border: 1px solid rgb(142, 172, 125);
+    }
+    
+    .Yilin_photo{
+        float:right;
+    }
+    
+    .text-intro{
+     text-align: center;
+    }
+
+
+     .artdesign{
+         float: right;
+     }
+
+     .artworkshop{
+         float: right;
+     }
+
+     .portfolio_artwork{
+         float: right;
+     }
+
+     @media(max-width:967px){
+        .container{
+            display:block;
+        }
+     
+        .article-container{
+            display:block;
+        }
+     }
+
+     /********************************************************
+        Banner Implementation
+     *********************************************************/
+
+
+        h1{
+            font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+        font-size: larger;
+            padding-top: 10px;
+            font-size: 36px;
+            padding:0px;
+            margin: 0px;
+            line-height:100px;
+            text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+            /*width:310px;*/
+           /* float:left;*/
+            text-align: center;
+            transform: rotate(5deg);
+            }
+            .slogan{
+                font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+                font-size: larger;
+            /*float: right;*/
+            margin:75px 20px 0px 0px;
+            font-size: 20px;
+            }
+
+            .banner{
+                /*width:620px;*/
+                border: 10px solid rgb(227, 223, 213);
+                padding: 25px;
+                text-align: center;
+      vertical-align: middle;
+                /*margin: 25px;*/
+                margin:7px auto;
+                -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+                -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+                -moz-border-radius: 15px;
+                -webkit-border-radius: 15px;
+                }
+
+                .rslides {
+                    position: relative;
+                    list-style: none;
+                    overflow: hidden;
+                    /*width: 100%;*/
+                    padding: 0;
+                    margin: 0;
+                    }
+                  
+                  .rslides li {
+                    -webkit-backface-visibility: hidden;
+                    position: absolute;
+                    display: none;
+                    /*width: 100%;*/
+                    left: 0;
+                    top: 0;
+                    }
+                  
+                  .rslides li:first-child {
+                    position: relative;
+                    display: block;
+                    float: left;
+                    }
+                  
+                  .rslides img {
+                    display: block;
+                    /*float: left;*/
+                    height:300px;
+                    /*width: 100%;*/
+                    border: 0;
+                    }    
+        .slide-container{
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: 1fr;
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        background-color: rgb(245, 239, 225);
+        border: 10px solid rgb(227, 223, 213);
+        padding: 25px;
+        margin: 25px;
+        text-align: center;
+       }    
+
+       .text{
+           grid-row: 1;
+           grid-column: 3;
+       }
+
+       .rslides{
+           grid-row: 1;
+           grid-column:1/2;
+       }
+    
+         
+            
