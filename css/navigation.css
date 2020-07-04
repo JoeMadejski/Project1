@@ -1,0 +1,23 @@
+ 
+ nav.menu li{
+    border: 20px solid rgb(239, 247, 210);
+    padding: 25px;
+    display:inline-block;
+ }
+
+ .menu a{
+   display:block;
+   padding:10px;
+ }
+
+.is-current {
+    background-color: #9aeb92;
+ }
+
+ nav.menu li:hover {
+   background-color: #e8f16a;
+ }
+
+
+
+
