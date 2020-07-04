@@ -3,7 +3,7 @@
 		<?php include "inc/nav.php"; ?>
 		<h1> Hobbies </h1>
 		<div class="grid-container">
-			<img src="images/latte.jpeg" alt="Tulip Latte Art" height="500" width="450" class="item1"/>
+			<img src="images/latte.jpeg" alt="Tulip Latte Art" class="item1"/>
 			<ul class="item2">
 				<li> Latte Art </li>
 				<li> Organization </li>

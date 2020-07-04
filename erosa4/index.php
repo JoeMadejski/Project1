@@ -3,7 +3,7 @@
 	<?php include "inc/nav.php"; ?>
 	<section class="basic-intro">
 		<div class="polariod">
-			<img src="images/empic.jpeg" alt="picture at the UR" height="300" width="250" class="me"/>
+			<img src="images/empic.jpeg" alt="picture at the UR" class="me"/>
 		</div>
 		<div class = "in">
 			<a href="index.php" class="name">Emely Rosa Ortiz</a>

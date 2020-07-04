@@ -3,7 +3,7 @@
 		<?php include "inc/nav.php"; ?>
 		<h1> Education </h1>
 		<div class="grid-container">
-			<img src="images/ur.png" alt="University of Rochester logo" height="500" width="500" class="item1"/>
+			<img src="images/ur.jpeg" alt="University of Rochester logo" class="item1"/>
 			<ul class="item2">
 				<li> School: University of Rochester</li>
 				<li> Major: Computer Science B.A </li>
