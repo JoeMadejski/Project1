@@ -7,14 +7,10 @@
     <link rel="stylesheet" type="text/css" href="css/navigation.css">
 	</head>
 	<body class="container">
-		<nav class="menu">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="page1.html">Emely Rosa</a></li>
-				<li><a class="is-current" href="page2.html">Joe Madejski</a></li>
-				<li><a href="page3.html">Yilin Luo</a></li>
-			</ul>
-		</nav>
+	
+
+	<?php include "inc/nav.php" ?>
+	
 		<div>
 			<header>
 				<h1>About Joe Madejski</h1>

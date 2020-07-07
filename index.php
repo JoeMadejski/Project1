@@ -7,14 +7,10 @@
     <link rel="stylesheet" type="text/css" href="css/navigation.css">
 </head>
 	<body class="container">
-		<nav class="menu">
-			<ul>
-				<li><a class="is-current" href="index.html">Home</a></li>
-				<li><a href="page1.html">Emely Rosa</a></li>
-				<li><a href="page2.html">Joe Madejki</a></li>
-				<li><a href="page3.html">Yilin Luo</a></li>
-			</ul>
-		</nav>
+	
+
+	<?php include "inc/nav.php" ?>
+	
 		<div>
 			<header>
 				<h1> The New York Team </h1>
@@ -27,7 +23,7 @@
 						<figcaption>Emely Rosa-Ortiz</figcaption>
 					</figure>
 						<p> Emely is a rising senior at the University of Rochester. She is pursuing a B.A in Computer Science and clustering in American Sign Language and Psychopathology.</p>
-						<a href="page1.html"> Click here to learn more about Emely </a>
+						<a href="emely.php"> Click here to learn more about Emely </a>
 				</div>
 			</article>
 			<article>
@@ -39,7 +35,7 @@
 					</figure>
 						<p> Joe attends the University of Rochester. He is pursuing a degree in Cell and Tissue Engineering with a cluster in 
 						abnormal psychology.</p>
-						<a href="page2.html"> Click here to learn more about Joe </a>
+						<a href="joe.php"> Click here to learn more about Joe </a>
 
 				</div>
 			</article>
@@ -52,7 +48,7 @@
 					</figure>
 						<p> Yilin is a rising senior at the University of Rochester. She is double majoring in Studio Arts and Computer Science. 
 						Her areas of interests are Human-Computer Interaction and studio arts. </p>
-						<a href="page3.html"> Click here to learn more about Yilin</a>
+						<a href="yilin.php"> Click here to learn more about Yilin</a>
 
 				</div>
 			</article>
